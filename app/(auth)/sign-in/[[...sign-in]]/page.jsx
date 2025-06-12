@@ -37,7 +37,7 @@ export default function Page() {
         </section>
 
         {/* Right Side - Clerk Sign In */}
-        <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 xl:col-span-6">
+        <main className="flex items-center justify-center px-4 lg:px-45">
           <div className="max-w-xl w-full">
             <SignIn />
           </div>
