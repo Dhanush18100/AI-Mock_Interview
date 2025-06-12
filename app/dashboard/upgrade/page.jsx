@@ -21,8 +21,8 @@ const PricingCards = () => {
               <li key={idx} className="text-sm text-gray-700">{item.value}</li>
             ))}
           </ul>
-          <Link href={plan.cost===0?'/dashboard':'/dashboard/upgrade'}>
-          <Button className="w-full mt-4">
+          <Link href={plan.cost===0?'/dashboard':'https://buy.stripe.com/test_00waEW52m6SyfcT37lfYY00'}>
+          <Button className="w-full mt-4 cursor-pointer">
             {plan.cost === 0 ? 'Get Started' : 'Upgrade to Premium'}
           </Button>
           </Link>
